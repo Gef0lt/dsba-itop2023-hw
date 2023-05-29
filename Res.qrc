@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/files">
+        <file>starbucks.csv</file>
+        <file>LogoForErik.png</file>
+        <file>iconForSaving.png</file>
+    </qresource>
+</RCC>
