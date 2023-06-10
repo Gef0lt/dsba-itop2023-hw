@@ -11,5 +11,5 @@ void DrawLogo::paintEvent(QPaintEvent* event) {
 
     QPainter painter(this);
 
-    painter.drawPixmap(20, 50, logoPixmap);
+    painter.drawPixmap(0, 0, logoPixmap);
 }
