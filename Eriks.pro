@@ -14,6 +14,7 @@ SOURCES += \
     choosefield.cpp \
     chooseorder.cpp \
     choosetype.cpp \
+    drawlogo.cpp \
     main.cpp \
     mainwindow.cpp \
     searchreq.cpp
@@ -24,6 +25,7 @@ HEADERS += \
     choosefield.h \
     chooseorder.h \
     choosetype.h \
+    drawlogo.h \
     mainwindow.h \
     searchreq.h
 

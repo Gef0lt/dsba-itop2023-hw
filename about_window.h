@@ -2,6 +2,8 @@
 #define ABOUT_WINDOW_H
 
 #include <QDialog>
+#include "drawlogo.h"
+
 
 namespace Ui {
 class About_window;
@@ -17,6 +19,7 @@ public:
 
 private:
     Ui::About_window *ui;
+    DrawLogo *logo;
 };
 
 #endif // ABOUT_WINDOW_H

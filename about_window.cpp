@@ -13,6 +13,10 @@ About_window::About_window(QDialog *parent) :
                              "\nAlso, you may search a row in the bottom of Main Page even by the part of Item name."
                              "\nYou can reset the table and save the data to a new one."
                              "\nTo delete row press \"RMC - remove\" ");
+
+    QVBoxLayout* layout = new QVBoxLayout(this);
+    logo = new DrawLogo(this);
+    layout->addWidget(logo);
 }
 
 About_window::~About_window()
